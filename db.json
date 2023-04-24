@@ -1,0 +1,327 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 2
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 3
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 4
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 5
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 6
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 7
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 8
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 9
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 10
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 11
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 12
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 13
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 14
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 15
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 16
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 17
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 18
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 19
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 20
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 21
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 22
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 23
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 24
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 25
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 26
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 27
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 28
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 29
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 30
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 31
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 32
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 33
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 34
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 35
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 36
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 37
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 38
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 39
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 40
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 41
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 42
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 43
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 44
+    },
+    {
+      "fullName": "niwahal poorna",
+      "email": "hiru@gmail.com",
+      "password": "sandu17303",
+      "confirmPassword": "sandu17303",
+      "id": 45
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
