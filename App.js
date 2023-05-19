@@ -1,11 +1,13 @@
 import React from 'react';
 // import { StyleSheet, Text, View } from 'react-native';
-import AppRouter from './src/router/router';
+// import AppRouter from './src/router/router';
+import StackNavigator from './src/router/StackNavigator';
 
 export default function App() {
   return (
    
-   <AppRouter /> 
+  //  <AppRouter />
+  <StackNavigator/> 
    
   );
 };

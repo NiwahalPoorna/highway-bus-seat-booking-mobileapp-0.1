@@ -5,7 +5,6 @@ import { View, Text, Pressable } from "react-native";
 import React, { useState } from "react";
 import { Alert } from "react-native";
 
-
 const CheckScreen = () => {
   const { initPaymentSheet, presentPaymentSheet } = useStripe();
 
@@ -60,7 +59,7 @@ const CheckScreen = () => {
 
     // 4. If payment is successful, create the order
     // TODO: implement creating an order in your backen
-     console.log("Payment successful");
+    console.log("Payment successful");
   };
 
   return (
@@ -73,83 +72,6 @@ const CheckScreen = () => {
 };
 
 export default CheckScreen;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React, { useState, useEffect } from "react";
 // import { View, Text, Button } from "react-native";
