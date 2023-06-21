@@ -17,10 +17,16 @@ import user from "../../assets/user.png";
 import axios from "axios";
 import { useSelector } from "react-redux";
 
+import { useNavigation } from "@react-navigation/native"; 
+
+import {BASE_URL} from "@env";
+
 const ProfileScreen = () => {
   const [profileData, setProfileData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  const navigation = useNavigation();
 
   const userDetails = useSelector((state) => state.userlog.user);
   const email = userDetails?.email;
@@ -29,7 +35,7 @@ const ProfileScreen = () => {
     const fetchProfileData = async () => {
       try {
         const response = await axios.get(
-          `http://192.168.1.47:3000/user/details/${email}`
+          `http://192.168.8.192:3000/user/details/${email}`
         );
         console.log(response.data);
         setProfileData(response.data);
@@ -133,14 +139,13 @@ const ProfileScreen = () => {
                 <Text style={styles.menuItemText}>Tell Your Friends</Text>
               </View>
             </TouchableRipple>
-            <TouchableRipple
-            // onPress={() => {}}
-            >
+            <TouchableRipple onPress={() => navigation.navigate("Support")}>
               <View style={styles.menuItem}>
                 <Icon name="account-check-outline" color="#1f29ab" size={25} />
                 <Text style={styles.menuItemText}>Support</Text>
               </View>
             </TouchableRipple>
+
             <TouchableRipple
             // onPress={() => {}}
             >

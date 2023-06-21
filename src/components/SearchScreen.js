@@ -17,6 +17,8 @@ import { useNavigation } from "@react-navigation/native";
 import { Image } from "react-native";
 import rightarrow from "../../assets/right-arrow.png";
 
+import {BASE_URL} from "@env";
+
 const SearchScreen = () => {
   const [buses, setBuses] = useState([]);
   const [selectedDate, setSelectedDate] = useState(new Date());
@@ -40,7 +42,7 @@ const SearchScreen = () => {
     console.log(values, selectedDate);
     try {
       const response = await axios.get(
-        `http://192.168.1.47:3000/buses?origin=${values.origin}&destination=${values.destination}&date=${dateParam}`
+        `http://192.168.8.192:3000/buses?origin=${values.origin}&destination=${values.destination}&date=${dateParam}`
       );
       setBuses(response.data);
     } catch (error) {

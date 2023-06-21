@@ -20,6 +20,8 @@ import { useNavigation } from "@react-navigation/native";
 
 import bus from "../../assets/bus.png";
 
+import {BASE_URL} from "@env";
+
 const validationSchema = yup.object().shape({
   email: yup.string().required("Email is required").email("Invalid email"),
   password: yup.string().required("Password is required"),
@@ -40,7 +42,7 @@ const LoginScreen = () => {
     console.log(data);
     try {
       const response = await axios.post(
-        "http://192.168.1.47:3000/user/login",
+        `http://192.168.8.192:3000/user/login`,
         data,
         {
           headers: {

@@ -17,6 +17,8 @@ import { useNavigation } from "@react-navigation/native";
 import { Button, TextInput } from "react-native-paper";
 import bus from "../../assets/bus.png";
 
+import {BASE_URL} from "@env";
+
 const schema = yup.object().shape({
   fullName: yup.string().required("Full name is required"),
   email: yup
@@ -66,7 +68,7 @@ function RegisterScreen() {
 
     try {
       const response = await axios.post(
-        "http://192.168.1.47:3000/user/register",
+        `http://192.168.8.192:3000/user/register`,
         data,
         {
           headers: {

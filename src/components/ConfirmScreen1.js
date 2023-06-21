@@ -7,7 +7,8 @@ import {
 } from "react-native";
 import axios from "axios";
 
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
+import { clearSeats } from "../Slice/seatSlice";
 
 import { useStripe } from "@stripe/stripe-react-native";
 
@@ -19,7 +20,10 @@ import { useNavigation } from "@react-navigation/native";
 
 import downarrow from "../../assets/down-arrow.png";
 
+import {BASE_URL} from "@env";
+
 const ConfirmScreen1 = () => {
+  const dispatch = useDispatch();
   const navigation = useNavigation();
 
   const busDetails = useSelector((state) => state.bus.busDetails);
@@ -48,7 +52,7 @@ const ConfirmScreen1 = () => {
     totalPrice: totalPrice3,
     email: userDetails.email,
     seats: selectedSeats,
-    // status:true,
+    status:true,
   };
 
   const { initPaymentSheet, presentPaymentSheet } = useStripe();
@@ -61,7 +65,7 @@ const ConfirmScreen1 = () => {
     // 1. Create a payment intent
 
     try {
-      const response = await axios.post("http://192.168.1.47:3000/intents", {
+      const response = await axios.post(`http://192.168.8.192:3000/intents`, {
         amount: Math.floor(totalPrice3 * 100),
       });
       if (response.data.error) {
@@ -112,7 +116,7 @@ const ConfirmScreen1 = () => {
   async function onBook() {
     try {
       const response = await axios.post(
-        "http://192.168.1.47:3000/booking",
+        `http://192.168.8.192:3000/booking`,
         busDetailsObject
       );
 
@@ -121,6 +125,7 @@ const ConfirmScreen1 = () => {
         Alert.alert("Booking Successful", "Your booking has been confirmed.", [
           { text: "OK", onPress: () => navigation.navigate("Booked") },
         ]);
+        dispatch(clearSeats());
       }
       console.log(response.data);
     } catch (error) {

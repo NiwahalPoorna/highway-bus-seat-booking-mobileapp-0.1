@@ -16,7 +16,7 @@ const CheckScreen = () => {
     // 1. Create a payment intent
 
     try {
-      const response = await axios.post("http://192.168.1.47:3000/intents", {
+      const response = await axios.post(`http://192.168.8.192:3000/intents`, {
         amount: Math.floor(totalPrice * 100),
       });
       if (response.data.error) {

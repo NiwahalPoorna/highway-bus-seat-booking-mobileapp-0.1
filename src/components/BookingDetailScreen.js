@@ -22,6 +22,16 @@ const BookingDetailsScreen = ({ route }) => {
 
         <Text style={styles.details}>Booking Email: {booking.email}</Text>
         <Text style={styles.details}>Booking Date: {booking.date}</Text>
+        <Text
+          style={{
+            fontSize: 26,
+            fontWeight: "600",
+            marginHorizontal: 10,
+            marginTop: 9,
+          }}
+        >
+          Selected Seats: {booking.seats.map((seat) => seat).join(", ")}
+        </Text>
 
         {/* Render other booking details here */}
       </View>
@@ -59,7 +69,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#F0E6FF", // Light purple color
   },
   qrContainer: {
     marginVertical: 40,

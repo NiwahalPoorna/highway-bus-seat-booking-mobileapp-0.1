@@ -21,7 +21,9 @@ import SeatSelectScreen from "../components/SeatSelectScreen";
 import ProfileScreen from "../components/ProfileScreen";
 import BookingDetailsScreen from "../components/BookingDetailScreen";
 
-import SeatScreen from "../components/SeatScreen"
+import SeatScreen from "../components/SeatScreen";
+
+import SupportScreen from "../components/SupportScreen";
 
 const StackNavigator = () => {
   const Tab = createBottomTabNavigator();
@@ -103,6 +105,11 @@ const StackNavigator = () => {
             <Stack.Screen
               name="BookingDetails"
               component={BookingDetailsScreen}
+            />
+
+<Stack.Screen
+              name="Support"
+              component={SupportScreen}
             />
           </Stack.Navigator>
         </StripeProvider>
